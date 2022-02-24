@@ -1,0 +1,161 @@
+/*Universal selector*/
+
+*{
+	cursor: pointer;
+}
+
+
+/*1. local font integrate*/
+
+/*body{
+	font-family:Arial;
+}*/
+
+
+/*.p1{
+	font-family: Arial;
+}*/
+
+
+/*.p2{
+	font-family: Freestyle Script;
+}*/
+
+/*.p1{
+	font-family: century,"Times New Romen",Arial;
+}*/
+
+
+/*2.Global font integrate*/
+
+/*.p1{
+	font-family: 'Stick';
+}*/
+
+/*.p2{
+	font-family: 'Stick',sans-serif;
+}*/
+
+
+/*.p3{
+	font-family: 'Akaya kanadaka',cursive;
+}*/
+
+
+/*local font integrate*/
+
+/*at-rules*/
+
+		/*for stick*/
+
+		@font-face{
+			font-family: 'stick';
+			src: local('Stick-Regular'),url("../lib/font/stick/Stick-Regular.ttf")format('woff');
+		}
+
+
+		/*for akaya*/
+
+		@font-face{
+			font-family: 'AkayaKanadaka';
+			src: local('AkayaKanadaka-Regular'),url('../lib/font/akayakanadaka/AkayaKanadaka-Regular.ttf')format('woff');
+		}
+
+
+		/*body{
+			font-family: 'stick';
+		}*/
+
+
+		.p1{
+			font-family:'stick';
+		}
+
+
+		/*for akaya*/
+
+		.p2,.p3{
+			font-family: 'AkayaKanadaka';
+		}
+
+
+		.p4{
+			font-family: Arial;
+			/*font-weight: bold;*/
+			/*font-weight: bolder;*/
+			            /*100 to 900*/
+			/*font-weight: 600;*/
+			/*font-style: italic;*/
+			/*text-transform: uppercase;*/
+			/*text-transform: lowercase;*/
+			text-transform: capitalize;
+
+			/*Text Indentation*/
+			text-indent: 100px;
+		}
+
+
+		.clickme{
+			text-decoration: none;
+			color: red;
+		}
+
+		.clickme:visited{
+			color: red;
+		}
+
+		.clickme:hover{
+			color: blue;
+			font-size: 20px;
+		}
+
+		.menutext{
+			font-family: Arial;
+			text-decoration: none;
+			background-color: blue;
+			color: #fff;
+
+			/*padding: 20px;*/
+
+                   /*top&down left&right*/
+			/*padding: 10px 30px;*/
+
+                     /*top right bottom left*/
+		    /*padding: 10px 20px 30px 40px;*/
+
+
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    padding-left: 20px;
+		    padding-right: 20px;
+
+		    border-radius: 10px;
+		    /*transition: all 1s;*/
+
+		    /*tranaition: background-color 5s;*/
+
+		    transition: background-color 2s,color 5s;
+		}
+
+
+	.menutext:hover{
+		background-color: orange;
+		color: black;
+	}
+
+
+
+	.imagedesign{
+		width:80px;
+		height:80px;
+
+		cursor:pointer;
+
+		transition:all 1s;
+	}
+
+
+	.imagedesign:hover{
+		width:120px;
+		height:120px;
+	}

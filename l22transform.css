@@ -1,0 +1,108 @@
+:root{
+	--gn: green;
+	--oc: orange;
+	--rc: red;
+}
+
+
+.div1{
+	width: 100px;
+	height: 80px;
+	background-color: var(--gn);
+					/*rotate(xy)*/
+	transform: rotate(45deg);
+}
+
+
+.div2{
+	width: 100px;
+	height: 80px;
+	background-color: var(--oc);
+
+	transform: rotate(-45deg);
+}
+
+
+.div3{
+	width: 200px;
+	height: 80px;
+	background-color: var(--rc);
+
+	transform: rotateX(50deg);
+}
+
+
+.div4{
+	width: 200px;
+	height: 80px;
+	background-color: var(--rc);
+
+	transform: rotateY(50deg);
+}
+
+
+
+.div5{
+	width: 200px;
+	height: 80px;
+	background-color: var(--gn);
+				/*defaut=1*/
+	transform: scale(0.5);
+}
+
+
+.div6{
+	width: 200px;
+	height: 80px;
+	background-color: var(--oc);
+				
+	transform: skew(50deg);
+	/*transform: skew(-50deg);*/
+}
+
+
+.div7{
+	width: 200px;
+	height: 80px;
+	background-color: var(--gn);
+
+				/*defaut=transform(x)*/
+	/*transform: translate(50%);*/
+	/*transform: translate(-50%);*/
+	/*transform: translate(100%);*/
+	/*transform: translate(-100%);*/
+
+	/*transform: translate(200px);*/
+	/*transform: translate(-100px);*/
+
+	/*transform: translateX(100%);*/
+	/*transform: translateX(-100%);*/
+
+	transform: translateY(100%);
+	/*transform: translateY(-100%);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
